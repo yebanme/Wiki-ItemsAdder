@@ -2,45 +2,50 @@
 
 ## 视频教程
 
-{% embed url="https://youtu.be/GKGnlF4zZVg" caption="" %}
+{% embed url="https://youtu.be/GKGnlF4zZVg" %}
 
-## 步骤 1 —— 安装插件和API
-
-为了防止服务器会出一些奇奇怪怪的BUG.这里推荐你整一个测试的服务端然后进行测试,然后再把插件放到服务器去食用
-
-{% hint style="danger" %}
-如果你使用的是旧版本的ItemsAdder[v1.0]那么请先将目录**plugins/ItemsAdder**移动到**ItemsAdder\_backup**
+{% hint style="info" %}
+**你应该在本地测试服务器上**进行第一次配置以**避免错误**和多次重启.. 玩家不喜欢服务器停机 ;\)   
+你可以在完成所有配置后将文件上传到真实的服务器。
 {% endhint %}
 
-* 下载并安装 [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
-* 下载并安装 [**IALib**](https://www.spigotmc.org/resources/ialib.75974/)
-* 下载并安装 [**LightAPI**](https://www.spigotmc.org/resources/lightapi-fork.48247/)
-* 把**ItemsAdder.jar**放到服务端的插件目录
-* 打开你的服务器
-* 让ItemsAdder完成**初始化**.中国的腐竹需要用科学上网来下载材质包[当然得在放服务端机子里用科学上网,不是玩家用科学上网哦]
-* 关闭服务器
+{% hint style="danger" %}
+如果您已经拥有ItemsAdder旧1.0版本，请重命名**Plugins/ItemsAdder**文件夹为**ItemsAdder\_backup**
+{% endhint %}
 
-## 步骤 2 —— 资源包初始化
+## 步骤 1 - 安装插件和API
 
-* 插件加载完成后进入服务器然后输入命令 `/iazip`
-* 打开Itemadder的配置文件 **[plugins\ItemsAdder\config.yml]**
-* 按照下面的按钮来进行下一步的配置
+* 安装 [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
+* 安装 [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)\*\*\*\*
+* 安装 [**LightAPI**](https://www.spigotmc.org/resources/lightapi-fork.48247/)
+* 将**ItemsAdder.jar**文件放入Plugins文件夹
+* 启动服务器
+* 让ItemsAdder完成加载**一切**
+* 停止服务器
+
+## 步骤 2 - 资源包首次安装
+
+* 当插件完全加载后加入服务器并执行命令`/iazip`
+* 打开Plugins\ItemsAdder\config.yml
+* 如果要在服务器上直接托管资源包，请遵循本教程
 
 {% page-ref page="plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md" %}
 
-* 如果您想在DropBox托管资源包,那么可以按照这里的教程进行操作
+* 如果您想在DropBox上托管资源包，你可以遵循本教程
 
 {% page-ref page="plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md" %}
 
 {% hint style="warning" %}
- 如果你想更新`pack.zip`的材质,那么请输入指令 `/iazip`
+**每次**你想让插件更新`pack.zip`文件**记得**使用命令`/iazip`
 {% endhint %}
 
-### 可选步骤
+## 可选步骤 - 删除默认物品
 
 {% hint style="info" %}
-如果你想开始制作一些自定义物品,你可以先查看下面按钮的内容.
+如果你不关心我默认提供的物品，你只想添加自己的物品、方块和其它东西，这很简单！
 
 {% page-ref page="faq/removing-default-stuff.md" %}
 {% endhint %}
+
+
 
