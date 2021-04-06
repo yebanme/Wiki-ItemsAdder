@@ -1,6 +1,6 @@
-# ➕Addons/resources
+# ➕插件/资源
 
-## Get the addons here:
+## 在此处获取资源:
 
 {% embed url="https://addons.plugin.ga/itemsadder/" %}
 
