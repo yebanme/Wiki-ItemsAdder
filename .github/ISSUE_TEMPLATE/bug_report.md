@@ -1,32 +1,32 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: "[BUG] "
-labels: bug
-assignees: ''
+名称: 问题报告
+关于: 创建报告以帮助我们改进
+标题: "[BUG] "
+标签: bug
+人员: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**错误描述**
+对错误清晰而简洁的描述。
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**复现**
+重现错误的步骤:
+1. 去什么地方 '...'
+2. 点击什么 '....'
+3. 放置什么 '....'
+4. 出现错误
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**预期行为**
+对你期望发生事情的清晰而简洁的描述。
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**截图**
+如果适用，添加屏幕截图以帮助解释您的问题。
 
-**Info (please complete the following information):**
- - Server version: (example: paper 1.15.2)
- - Client version: (example: fabric 1.15.2)
- - Plugin version: (example: 2.0.9 do not write "latest")
+**信息 (请填写以下信息):**
+ - 服务器版本: (例如: paper 1.15.2)
+ - 客户端版本: (例如: fabric 1.15.2)
+ - 插件版本: (例如: 2.0.9 不要写"最新")
 
-**Additional context**
-Add any other context about the problem here.
+**附加上下文**
+在这里添加有关问题的任何其它信息。
